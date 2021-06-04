@@ -15,8 +15,8 @@ stat_mod.sigma = sigma;
 stat_mod.error_model = error_model;
 
 % Store the excess risk for each resolution, sample size and repetition
-Gen_noT_par = zeros(length(NN),Nmm,K);
-Gen_T_par = zeros(length(NN),Nmm,K);
+Gen_U_par = zeros(length(NN),Nmm,K);
+Gen_S_par = zeros(length(NN),Nmm,K);
 
 % Run main code
 for iN = 1:length(NN)
